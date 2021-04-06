@@ -4,7 +4,5 @@ class CreateDogs < ActiveRecord::Migration[5.2]
       #type, column name, and constraint
       t.string :name, null: false
     end
-
-
   end
 end
